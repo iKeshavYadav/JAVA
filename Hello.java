@@ -66,3 +66,35 @@ class Hello
     }
 }
 */
+
+// # Assignment Operators
+
+/*
+class Hello
+{
+    public static void main(String args[])
+    {
+        int num1 = 7;
+        int num2 = 5;
+
+        // int result = num1 + num2; //Addition
+        // int result = num1 - num2; //Subtraction
+        // int result = num1 * num2; //Multiplication
+        // int result = num1 / num2; // Division -> Gives quotients
+        // int result = num1 % num2; //Modular -> Gives Reminders
+        // System.out.println(result);
+        
+        // Increments
+        // num1 = num1 + 1; //8
+        // num1 +=1; //8
+        // num1++; //8 : post-increment
+        // ++num1; //8 : pre-increment
+        // System.out.println(num1);
+
+        // Difference b/w post & pre increment
+        // int result = ++num1; //8 : increments and then fetch the value
+        int result = num1++; //7 : fetch the value and then increments
+        System.out.println(result);
+    }
+}
+*/
