@@ -37,3 +37,32 @@ class Hello
     }
 }
 */
+
+// # Type conversion and casting
+// Implicit Conversion or Casting : a data type is converted into another data type by a compiler
+// Explicit Conversion or Casting : a data type is converted into another data type by a programmer using casting operator
+
+/*
+class Hello
+{
+    public static void main(String args[])
+    {
+        // byte b = 127;
+        int a = 12;
+        byte k = (byte) a; //type casting
+        // System.out.println(a);
+
+        float f = 5.6f;
+        int t = (int) f; ////type casting
+        // System.out.println(t);
+
+        // type promotion
+        byte num1 = 10;
+        byte num2 = 30;
+        int result = num1 * num2;
+        System.out.println(result);
+
+
+    }
+}
+*/
