@@ -98,3 +98,24 @@ class Hello
     }
 }
 */
+
+// # Relational Operators
+/*
+class Hello
+{
+    public static void main(String args[])
+    {
+        int a = 10;
+        int b = 20;
+        
+        // boolean result = a == b; //false
+        // boolean result = a != b; //false
+        // boolean result = a > b; //false
+        // boolean result = a < b; //true
+        // boolean result = a >= b; //false
+        // boolean result = a <= b; //true
+
+        System.out.println(result);
+    }
+}
+*/
