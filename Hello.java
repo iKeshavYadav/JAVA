@@ -119,3 +119,23 @@ class Hello
     }
 }
 */
+
+// # Logical Operators
+
+class Main {
+  public static void main(String[] args) {
+
+    // && AND-operator (TRUE - only if BOTH the condition are True)
+    // System.out.println((5 > 3) && (8 > 5));  // true
+    // System.out.println((5 > 3) && (8 < 5));  // false
+
+    // || OR-operator (TRUE - if ANY-ONE condition is True)
+    // System.out.println((5 < 3) || (8 > 5));  // true
+    // System.out.println((5 > 3) || (8 < 5));  // true
+    // System.out.println((5 < 3) || (8 < 5));  // false
+
+    // ! NOT-operator (T -> F | F -> T)
+    // System.out.println(!(5 == 3));  // true
+    // System.out.println(!(5 > 3));  // false
+  }
+}
