@@ -121,7 +121,7 @@ class Hello
 */
 
 // # Logical Operators
-
+/*
 class Main {
   public static void main(String[] args) {
 
@@ -139,3 +139,23 @@ class Main {
     // System.out.println(!(5 > 3));  // false
   }
 }
+*/
+
+// #If-Else in JAVA
+/*
+class Hello
+{
+    public static void main(String[] args)
+    {
+        int x = 8;
+        
+        if(x < 10)
+        {
+            System.out.println("Hello");
+            System.out.println("Welcome!");
+        }
+        else
+            System.out.println("Bye");
+    }
+}
+*/
