@@ -159,3 +159,24 @@ class Hello
     }
 }
 */
+
+// # If-Else-If in JAVA
+/*
+class Hello
+{
+    public static void main(String[] args)
+    {
+        int a = 8;
+        int b = 2;
+        
+        if(a == b){
+            System.out.println("Equal");
+        } else if(a > b){
+            System.out.println("A is Greater");
+        }
+        else{
+            System.out.println("A is Lesser");
+        }
+    }
+}
+*/
