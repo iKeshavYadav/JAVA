@@ -275,3 +275,20 @@ class Hello {
     }
 }
 */
+
+// Do While Loops in JAVA
+
+// Do while give output at least once even if the condiotion is false
+/*
+class Hello {
+    public static void main(String[] args) {
+    
+        int i = 5;
+        
+        do{
+            System.out.println("Hi " + i);
+            i++;
+        }while(i <= 4);
+    }
+}
+*/
