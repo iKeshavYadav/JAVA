@@ -362,3 +362,30 @@ class Hello{
     }
 }
 */
+
+// Array in JAVA
+/* 
+public class Hello{
+    public static void main(String[] args){
+        
+        // # Simple Array
+        // int nums[] = {3,7,2,4};
+        // nums[1] = 10;
+        // System.out.println(nums[0]);
+        
+        // # Dynamic Array (Blank values array)
+        int nums[] = new int[4]; //boxes are 4 but values are 0 initially
+        nums[0] = 4;
+        nums[1] = 8;
+        nums[2] = 3;
+        nums[3] = 9;
+        // System.out.println(nums[1]); //8
+        
+        // Fetch all the values
+        
+        for(int i=0;i<4;i++){
+            System.out.println(nums[i]);
+        }
+    }
+}
+*/
