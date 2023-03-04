@@ -389,3 +389,37 @@ public class Hello{
     }
 }
 */
+
+// Multi Dimensional Array in JAVA
+/*
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        //Two Dimensional empty array with having 3 rows & 4 col
+        int nums[][] = new int[3][4];
+        
+        // Assigning random value into the array
+        for(int i=0; i<3;i++){
+            for(int j=0;j<4;j++){
+                nums[i][j] = (int)(Math.random() * 10);
+            }
+        }
+        
+        // printing all array values
+        for(int i=0; i<3;i++){
+            for(int j=0;j<4;j++){
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
+        
+        // printing all array values using enhanced for loop
+        // for(int n[] : nums){
+        //     for(int m: n){
+        //         System.out.print(m + " ");
+        //     }
+        //     System.out.println();
+        // }
+    }
+}
+*/
