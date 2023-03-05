@@ -455,7 +455,7 @@ class Hello {
 
 
 // Array of objects
-
+/*
 class Student{
     int rollno;
     String name;
@@ -494,3 +494,70 @@ class Hello {
         
     }
 }
+*/
+
+// Enhanced for loop (for-each-loop)
+/*
+class Hello {
+    public static void main(String[] args) {
+        
+        int nums[] = new int[4];
+        
+        nums[0] = 3;
+        nums[1] = 8;
+        nums[2] = 6;
+        nums[3] = 2;
+        
+        // Normal for loop
+        // for(int i=0; i<nums.length;i++){
+        //     System.out.println(nums[i]);
+        // }
+        
+        // Enhanced for loop (for-each-loop)
+        
+        for(int n : nums){
+            System.out.println(n);
+        }
+    }
+}
+*/
+
+// Enhanced for loop (for-each-loop) working with obj
+/*
+class Student{
+    int rollno;
+    String name;
+    int marks;
+}
+
+class Hello {
+    public static void main(String a[]) {
+        
+        Student s1 =  new Student();
+        s1.rollno = 17;
+        s1.name = "Keshav";
+        s1.marks = 70;
+        
+        Student s2 =  new Student();
+        s2.rollno = 16;
+        s2.name = "Aradhna";
+        s2.marks = 90;
+        
+        Student s3 =  new Student();
+        s3.rollno = 99;
+        s3.name = "Satyam";
+        s3.marks = 69;
+        
+        Student students[] = new Student[3];
+        students[0] = s1;
+        students[1] = s2;
+        students[2] = s3;
+        
+        // Enhanced for loop
+        for(Student stud : students){
+            System.out.println(stud.name + " " + stud.marks);
+        }
+        
+    }
+}
+*/
