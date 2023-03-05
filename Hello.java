@@ -392,7 +392,7 @@ public class Hello{
 
 // Multi Dimensional Array in JAVA
 /*
-class HelloWorld {
+class Hello {
     public static void main(String[] args) {
         
         //Two Dimensional empty array with having 3 rows & 4 col
@@ -420,6 +420,35 @@ class HelloWorld {
         //     }
         //     System.out.println();
         // }
+    }
+}
+*/
+
+// Jagged Array in JAVA
+/*
+class Hello {
+    public static void main(String a[]) {
+        
+        // Jagged array : number of col are not specified
+        int nums[][] = new int[3][];
+        
+        nums[0] = new int[3];
+        nums[1] = new int[4];
+        nums[2] = new int[2];
+        
+        for(int i=0; i<nums.length;i++){
+            for(int j=0;j<nums[i].length;j++){
+                nums[i][j] = (int)(Math.random() * 10);
+            }
+        }
+        
+        // printing all array values using enhanced for loop
+        for(int n[] : nums){
+            for(int m: n){
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
     }
 }
 */
