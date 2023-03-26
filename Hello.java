@@ -561,3 +561,21 @@ class Hello {
     }
 }
 */
+
+// String in JAVA
+
+/*
+class Hello {
+    public static void main(String a[]) {
+        
+        String name = "Keshav";
+        
+        // System.out.println(name); //Keshav
+        // System.out.println(name + " Yadav"); //Keshav Yadav
+        // System.out.println(name.concat(" Yadav")); //Keshav Yadav
+        // System.out.println(name.charAt(0)); //K
+        System.out.println(name.length()); //6
+        
+    }
+}
+*/
