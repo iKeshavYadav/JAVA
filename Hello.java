@@ -579,3 +579,8 @@ class Hello {
     }
 }
 */
+
+// Mutable vs Immutable String in JAVA
+
+// Mutable String: strings which can be modified once they are created
+// Immutable String: cannot be changed after they have been created
