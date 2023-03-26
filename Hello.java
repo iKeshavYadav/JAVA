@@ -584,3 +584,30 @@ class Hello {
 
 // Mutable String: strings which can be modified once they are created
 // Immutable String: cannot be changed after they have been created
+
+
+/*
+// StringBuffer and StringBuilder in JAVA
+// StringBuffer and StringBuilder class in java used to create mutable string 
+
+class Hello {
+    public static void main(String[] args) {
+        
+        // StringBuffer: String which is mutable
+        StringBuffer sb = new StringBuffer("Keshav");
+        
+        System.out.println(sb.capacity()); //Buffer size by default: 16
+        System.out.println(sb.length()); //6
+        System.out.println(sb.append(" Yadav")); //Keshav Yadav
+        // String str = sb; //error: type mismatched
+        String str = sb.toString(); //Convert StringBuffer to String type
+        System.out.println(sb.deleteCharAt(2)); //Kehav Yadav
+        System.out.println(sb.insert(0, "Mr. ")) //Mr. Keshav Yadav
+        // sb.setLength(30); //Set extra length to add data
+        sb.ensureCapacity(100) //Set minimum capacity to buffer size
+        
+        // In StringBuilder Methods are almost same as StringBuffer
+        // The only diffrence is, StringBuffer is thread-safe but StringBuilder is not
+    }
+}
+*/
