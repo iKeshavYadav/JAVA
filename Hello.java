@@ -687,3 +687,40 @@ class Hello {
 }
 */
 
+
+// Static Block in JAVA
+// Static blocks are used to initialize the static variables
+/*
+class Mobile{
+    String brand;
+    int price;
+    static String name;
+
+    public Mobile(){
+        brand = "";
+        price = 200;
+        System.out.println("In constructor");
+    }
+        
+    // Sttic block will get call only once irespective of how many obj you create
+    static{
+        name = "phone";
+        System.out.println("In static block");
+    }
+    
+}
+
+class Hello {
+    public static void main(String[] args) {
+        
+        // Class.forName("Mobile");
+        
+        Mobile obj1 = new Mobile();
+        obj1.brand = "Apple";
+        obj1.price = 1500;
+        Mobile.name = "Smartphone";
+        
+        Mobile obj2 = new Mobile();
+    }
+}
+*/
