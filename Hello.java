@@ -726,7 +726,8 @@ class Hello {
 */
 
 // Encapsulation in JAVA
-//Not all the data are directly accessible
+// Making the variables private or binding data with methods- and only way to access it is with the help of methods - so no one can access it directly - encapsulating data and methods called encapsulation
+
 /*
 class Human{
     
