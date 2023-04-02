@@ -757,3 +757,42 @@ class Hello {
     }
 }
 */
+
+// Getters and Setters in JAVA
+/*
+class Human{
+    
+    private int age;
+    private String name;
+
+    // Getters - get the values
+    public int getAge() {
+        return age;
+    }
+    //Setters - set the values
+    public void setAge(int ag) {
+        this.age = ag;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String nam) {
+        this.name = nam;
+    }
+    
+    
+}
+
+class Hello {
+    public static void main(String[] args) {
+        
+        Human obj = new Human();
+        // assigning the values with the help of methods
+        obj.setAge(30);
+        obj.setName("Keshav");
+        
+        // getting the value with the help of methods
+        System.out.println(obj.getName() + " : " + obj.getAge());
+    }
+}
+*/
