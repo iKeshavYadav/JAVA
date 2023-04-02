@@ -724,3 +724,35 @@ class Hello {
     }
 }
 */
+
+// Encapsulation in JAVA
+//Not all the data are directly accessible
+/*
+class Human{
+    
+    // these variable are accessible within this class only
+    private int age = 11;
+    private String name = "Keshav";
+    
+    // you can access the variable inside the method of the same class
+    public int getAge(){
+        return age;
+    }
+    
+    public String getName(){
+        return name;
+    }
+}
+
+class Hello {
+    public static void main(String[] args) {
+        
+        Human obj = new Human();
+        // these variables are not directly accessible
+        // obj.age = 11;
+        // obj.name = "Keshav";
+        
+        System.out.println(obj.getName() + " : " + obj.getAge());//Keshav : 11
+    }
+}
+*/
