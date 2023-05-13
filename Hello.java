@@ -337,6 +337,7 @@ class Hello {
 /*
 class Computer{
     
+    //void keyword used only when we are returning something
     public void playMusic(){
         System.out.println("Music Playing...");
     }
